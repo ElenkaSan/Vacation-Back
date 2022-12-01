@@ -66,7 +66,7 @@ APIw
 airportData
 src
 │ 
-├── Routes-nav
+├── RoutesNav
 │   ├── Navigation
 │   └── Routes
 │ 
@@ -114,21 +114,21 @@ src
 
 ### Functionality
 The app's functionality includes:
-  - User can search flights / hotels for every place on Earth
-  - User can see CountDown thier trip (e.g. Flight time or other Events, Deadlines) and add Packing List after signup
+  - User can search flights / hotels
+  - User can see CountDown of their trip (e.g. Flight time or other Events, Deadlines) and add Packing List after signup
   - Search the Weather forecast in User page
   - User can record ideas and ruminations about the venue in your own personal note
 
 ### Technology Stack
 - Front-End: HTML5 | CSS3 | JavaScript | React | React Bootstrap | Redux | RTL | JSON Schema | JSON Web Token
-- Back-End: Node.js | Express.js | SuperTest | JWT Authentication | Bcrypt | PostgreSQL | Axios | RESTful API Endpoints | MongoDB 
+- Back-End: Node.js | Express.js | SuperTest | JWT Authentication | Bcrypt | PostgreSQL | Axios | RESTful APIs 
 
 ### Hosting
 Heroku
 
 ### Future-Features
   - The travel time feature:
-    - Save favorite flight / hotel results into thier User Account and Trip Page after signup
+    - Save favorite flight / hotel with create date results into thier User Account and Trip Page after signup
     - Automatically calculate the flights and hotel date to count down in account, analyze hotel and flight costs and create trip list
     - Book flight and hotel
     - Car search, save and book
