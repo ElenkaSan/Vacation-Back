@@ -1,4 +1,3 @@
-# Vacation-Back
 # Capstone Project 2 - Vacation Time
 ### *Try the app [Vacation Time](https://elated-smile.surge.sh/)*
 Ready for travel, let’s make the trip of your dreams. This website `Vacation Time` allows you to find the nice hotel, flight for you with the best price. When your make next travel destination then can do a record personalized notes for vacation planning after create an account.
