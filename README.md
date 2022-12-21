@@ -119,7 +119,7 @@ The app's functionality includes:
   - User can record ideas and ruminations about the venue in your own personal note
 
 ### Technology Stack
-- Front-End: HTML5 | CSS3 | JavaScript | React | React Bootstrap | Redux | RTL | JSON Schema | JSON Web Token
+- Front-End: HTML5 | CSS3 | JavaScript | React | React Bootstrap | JSON Schema | JSON Web Token
 - Back-End: Node.js | Express.js | SuperTest | JWT Authentication | Bcrypt | PostgreSQL | Axios | RESTful APIs 
 
 ### Hosting
