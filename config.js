@@ -1,10 +1,21 @@
 "use strict";
 
 /** Shared config for application; can be required many places. */
-
-const dotenv = require('dotenv');
-dotenv.config();
+// const postgres = require('postgres');
 // require("dotenv").config();
+// const { PGHOST, PGDATABASE, PGUSER, PGPASSWORD, ENDPOINT_ID } = process.env;
+// const URL = `postgresql://${PGUSER}:${PGPASSWORD}@${PGHOST}/${PGDATABASE}?options=project%3D${ENDPOINT_ID}`;
+// const sql = postgres(URL, { ssl: 'require' });
+// async function getPostgresVersion() {
+//   const result = await sql`select version()`;
+//   console.log(result);
+// }
+// getPostgresVersion();
+
+// psql 'postgres://ElenkaSan:3onRTsuUqAf4@ep-flat-snow-630260.us-east-2.aws.neon.tech/neondb'
+
+// const dotenv = require('dotenv');
+// dotenv.config();
 require("colors");
 
 const SECRET_KEY = process.env.SECRET_KEY || "secret-dev";
@@ -18,11 +29,13 @@ function getDatabaseUri() {
       : process.env.DATABASE_URL || "vacation";
 }
 
+// psql 'postgres://ElenkaSan:3onRTsuUqAf4@ep-flat-snow-630260.us-east-2.aws.neon.tech/neondb'
+
 // Export env variables
-module.exports = {
-  clientId: process.env.API_KEY,
-  clientSecret: process.env.API_SECRET,
-};
+// module.exports = {
+//   clientId: process.env.API_KEY,
+//   clientSecret: process.env.API_SECRET,
+// };
 
 // Speed up bcrypt during tests, since the algorithm safety isn't being tested
 //
