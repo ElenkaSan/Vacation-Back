@@ -1,6 +1,5 @@
-# Vacation-Back
 # Capstone Project 2 - Vacation Time
-### *Try the app [Vacation Time](https://elated-smile.surge.sh/)*
+### *Try the app [Vacation Time](https://changeable-laugh.surge.sh/)*
 Ready for travel, let’s make the trip of your dreams. This website `Vacation Time` allows you to find the nice hotel, flight for you with the best price. When your make next travel destination then can do a record personalized notes for vacation planning after create an account.
 You can conveniently save your results along with any notes you've made in your personalized list. Start count down your trip date and check the Weather forecast.
 This website allows users to create an account and save the result after that with create a list of their Packing List and CountDown trip/flight/deadlines/evens and etc. 
@@ -66,7 +65,7 @@ APIw
 airportData
 src
 │ 
-├── Routes-nav
+├── RoutesNav
 │   ├── Navigation
 │   └── Routes
 │ 
@@ -114,21 +113,21 @@ src
 
 ### Functionality
 The app's functionality includes:
-  - User can search flights / hotels for every place on Earth
-  - User can see CountDown thier trip (e.g. Flight time or other Events, Deadlines) and add Packing List after signup
+  - User can search flights / hotels
+  - User can see CountDown of their trip (e.g. Flight time or other Events, Deadlines) and add Packing List after signup
   - Search the Weather forecast in User page
   - User can record ideas and ruminations about the venue in your own personal note
 
 ### Technology Stack
-- Front-End: HTML5 | CSS3 | JavaScript | React | React Bootstrap | Redux | RTL | JSON Schema | JSON Web Token
-- Back-End: Node.js | Express.js | SuperTest | JWT Authentication | Bcrypt | PostgreSQL | Axios | RESTful API Endpoints | MongoDB 
+- Front-End: HTML5 | CSS3 | JavaScript | React | React Bootstrap | JSON Schema | JSON Web Token
+- Back-End: Node.js | Express.js | SuperTest | JWT Authentication | Bcrypt | PostgreSQL | Axios | RESTful APIs 
 
 ### Hosting
 Heroku
 
 ### Future-Features
   - The travel time feature:
-    - Save favorite flight / hotel results into thier User Account and Trip Page after signup
+    - Save favorite flight / hotel with create date results into thier User Account and Trip Page after signup
     - Automatically calculate the flights and hotel date to count down in account, analyze hotel and flight costs and create trip list
     - Book flight and hotel
     - Car search, save and book
